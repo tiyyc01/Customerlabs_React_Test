@@ -1,0 +1,43 @@
+.App {
+  font-family: "Segoe UI", Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f1f5f9;
+}
+
+/* Header bar */
+.header {
+  background-color: #00798c;
+  color: white;
+  padding: 14px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Toolbar area below header */
+.toolbar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 16px 20px;
+  background: #f1f5f9;
+}
+
+/* Save Segment Button */
+.save-segment-btn {
+  background: transparent;
+  color: #00798c;
+  border: 1.8px solid #00798c;
+  padding: 8px 18px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.save-segment-btn:hover {
+  background-color: #00798c;
+  color: #fff;
+}
